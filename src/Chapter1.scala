@@ -21,7 +21,7 @@ object Chapter1 {
 	
 	(BigInt(100,Random) toString(36))         //> res3: String = 1x1br93540v2e5digp1w
 	
-	"hello"(0)                                //> res4: Char = h
+	"hello".head                                //> res4: Char = h
 	"hello".last                              //> res5: Char = o
 	
 	"hello".take(3)                           //> res6: String = hel
